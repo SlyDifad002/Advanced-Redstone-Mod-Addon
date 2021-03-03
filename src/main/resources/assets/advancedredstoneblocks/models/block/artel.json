@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancedredstoneblocks:blocks/backto",
+    "particle": "advancedredstoneblocks:blocks/backto"
+  }
+}

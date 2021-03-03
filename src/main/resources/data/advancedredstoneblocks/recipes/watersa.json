@@ -1,0 +1,42 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "1": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "4": {
+      "item": "advancedredstoneblocks:redflycars"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "6": {
+      "item": "minecraft:glass_pane"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:flred",
+    "count": 1
+  }
+}

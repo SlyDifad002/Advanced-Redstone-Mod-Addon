@@ -1,0 +1,2235 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Decos",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Onbuttonclicked",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toblock",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Torg",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Desd",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TorgOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oldes",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bsew",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ToredersOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toreders",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bettertool",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Redmesh",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ultimateess",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Edsass",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Betess",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Eseda",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Betaesd",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Comut",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Redstard",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Betamesh",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Resafa",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sicred",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sefsads",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bededs",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BettertoolRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stare",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Betasteare",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redoor",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ghd",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeclosedBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Declosed",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deopen",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DebottomclosedBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debottomclosed",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Debottomopen",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeclosedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebottomopenOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WooderRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wooder",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rceos",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reop",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rebotco",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rebotomop",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RceosBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RceosOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RebotcoBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RebotcoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedoorasRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redooras",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagicerPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicerPotionExpires",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magicer",
+      "type": "potion",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Slidetopclosed",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Slidetopopen",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Slidebottomclo",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Slidebottomope",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SlidetopclosedBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlidetopclosedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlidebottomcloBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlidebottomcloOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodslideRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Woodslide",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Traps",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Betaps",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CfOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CfRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CfEntityIsHurt",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cf",
+      "type": "mob",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedcarsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redcars",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Hgf",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hgf"
+    },
+    {
+      "name": "Cfold",
+      "type": "mob",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cfold"
+    },
+    {
+      "name": "Redoldcars",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redoldcars"
+    },
+    {
+      "name": "RedoldcarsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redoldcars_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cfly",
+      "type": "mob",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cfly"
+    },
+    {
+      "name": "Redflycars",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redflycars"
+    },
+    {
+      "name": "RedflycarsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redflycars_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CflyOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cfly_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rewasd",
+      "type": "loottable",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rewasd"
+    },
+    {
+      "name": "Carsa",
+      "type": "achievement",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carsa"
+    },
+    {
+      "name": "Yay",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wel",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wel"
+    },
+    {
+      "name": "Scsr",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scsr"
+    },
+    {
+      "name": "Betascsr",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "betascsr"
+    },
+    {
+      "name": "Rubbb",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbb"
+    },
+    {
+      "name": "Rcda",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcda"
+    },
+    {
+      "name": "Durs",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "durs"
+    },
+    {
+      "name": "Burduber",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burduber"
+    },
+    {
+      "name": "Flyscsr",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flyscsr"
+    },
+    {
+      "name": "Redoldflycars",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redoldflycars"
+    },
+    {
+      "name": "RedoldflycarsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redoldflycars_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cbetafly",
+      "type": "mob",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cbetafly"
+    },
+    {
+      "name": "CbetaflyOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cbetafly_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carss",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carss"
+    },
+    {
+      "name": "Carf",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carf",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flying",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flying"
+    },
+    {
+      "name": "Flyse",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flyse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TolockOre",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tolock_ore"
+    },
+    {
+      "name": "TolockGem",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tolock_gem"
+    },
+    {
+      "name": "TolockOreSmelting",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tolock_ore_smelting"
+    },
+    {
+      "name": "Ts",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ts"
+    },
+    {
+      "name": "Tocon",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tocon"
+    },
+    {
+      "name": "Ows",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ows"
+    },
+    {
+      "name": "Rex",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rex"
+    },
+    {
+      "name": "Sliad",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliad"
+    },
+    {
+      "name": "Floatswa",
+      "type": "mob",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floatswa"
+    },
+    {
+      "name": "Flred",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flred"
+    },
+    {
+      "name": "FlredRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flred_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RidrsPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridrs_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FloatswaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floatswa_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FloatswaOnEntityTickUpdateOnKeyPressed",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floatswa_on_entity_tick_update_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Watermode",
+      "type": "keybind",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watermode"
+    },
+    {
+      "name": "CflyPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cfly_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Watersa",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watersa"
+    },
+    {
+      "name": "Slabszx",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slabszx"
+    },
+    {
+      "name": "Slabold",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slabold"
+    },
+    {
+      "name": "Glass",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass"
+    },
+    {
+      "name": "Pande",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pande"
+    },
+    {
+      "name": "Paina",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "paina"
+    },
+    {
+      "name": "Pena",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pena"
+    },
+    {
+      "name": "Tartel",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartel"
+    },
+    {
+      "name": "TartelBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartel_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TartelBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartel_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TartelBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartel_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtelBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artel_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtelBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artel_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TartelBlockDestroyedByPlayerBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartel_block_destroyed_by_player_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Artel",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artel"
+    },
+    {
+      "name": "Tpcar",
+      "type": "mob",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tpcar"
+    },
+    {
+      "name": "Redtpcars",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redtpcars"
+    },
+    {
+      "name": "RedtpcarsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redtpcars_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cartp",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cartp"
+    },
+    {
+      "name": "Tartts",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tartts"
+    },
+    {
+      "name": "Artts",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artts"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "num1",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "num2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "num3",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tpd",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "dtp",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "loc1",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "loc2",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "tpto",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "tpdy",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "tpdz",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "tofromloc",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "slyacs",
+      "files": [
+        "slytube"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "smiles",
+      "files": [
+        "mix_1m06s_audio-joiner.com"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "corrupeds",
+      "files": [
+        "mix_1m31s_audio-joiner.com"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "beast",
+      "files": [
+        "udio"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "slideclosing",
+      "files": [
+        "futuristic_air_compression_door_close_02"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "slideopening",
+      "files": [
+        "006141520_prev"
+      ],
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_gb": {
+      "block.advancedredstoneblocks.redoor": "Redoor",
+      "block.advancedredstoneblocks.declosed": "Declosed",
+      "item.advancedredstoneblocks.bettertool": "Infinity ultimate multitool",
+      "item.advancedredstoneblocks.cfold": "Redcar Spawn Egg",
+      "block.advancedredstoneblocks.rebotco": "Rebotco",
+      "item.advancedredstoneblocks.flred": "Redstone car",
+      "advancements.carss.descr": "Make a redstone car and drive it",
+      "block.advancedredstoneblocks.slidebottomclo": "Slidebottomclo",
+      "block.advancedredstoneblocks.slidebottomope": "Slidebottomope",
+      "advancements.carsa.descr": "Convert an advanced redstone block to the advanced blocks mod",
+      "block.advancedredstoneblocks.rubbb": "Redstone rubber stone",
+      "item.advancedredstoneblocks.sma.desc": "Smile always",
+      "block.advancedredstoneblocks.pande": "Pande",
+      "block.advancedredstoneblocks.slidetopclosed": "Slidetopclosed",
+      "entity.advancedredstoneblocks.cfold": "Redcar",
+      "advancements.carsa.title": "Convert to block mod",
+      "item.minecraft.tipped_arrow.effect.magicer": "Arrow of Ultimate elixir",
+      "item.advancedredstoneblocks.ultimateess": "Ultimate essence",
+      "item.minecraft.lingering_potion.effect.magicer": "Lingering Ultimate elixir",
+      "item.advancedredstoneblocks.cfly": "Redcar Spawn Egg",
+      "block.advancedredstoneblocks.wel": "Wel",
+      "block.advancedredstoneblocks.slabszx": "Slabszx",
+      "advancements.flying.descr": "Upgrade your redstone car to a flying car",
+      "item.advancedredstoneblocks.floatswa": "Redcar Spawn Egg",
+      "advancements.carss.title": "Cars",
+      "item.advancedredstoneblocks.floatswa_spawn_egg": "Redstcar Spawn Egg",
+      "entity.advancedredstoneblocks.tpcar": "Redcar",
+      "entity.advancedredstoneblocks.cbetafly": "Redstone flying car",
+      "item.advancedredstoneblocks.redmesh": "Red mesh",
+      "item.advancedredstoneblocks.redoldcars": "Redstone car",
+      "item.advancedredstoneblocks.correds.desc": "CoRuPtEd",
+      "block.advancedredstoneblocks.desd": "Desd",
+      "item.advancedredstoneblocks.sma": "The smiler",
+      "block.advancedredstoneblocks.betasteare": "Beta redstone stairs",
+      "item.advancedredstoneblocks.redtpcars": "Redstone car",
+      "block.advancedredstoneblocks.debottomclosed": "Debottomclosed",
+      "item.advancedredstoneblocks.cfold_spawn_egg": "Redoldcar Spawn Egg",
+      "item.advancedredstoneblocks.redooras": "Redstone door",
+      "block.advancedredstoneblocks.glass": "Glass",
+      "block.advancedredstoneblocks.artel": "Location block2",
+      "item.advancedredstoneblocks.redoldflycars": "Redstone flying car",
+      "item.advancedredstoneblocks.tpcar_spawn_egg": "Redcartp Spawn Egg",
+      "block.advancedredstoneblocks.slidetopopen": "Slidetopopen",
+      "entity.advancedredstoneblocks.floatswa": "Redcar",
+      "item.advancedredstoneblocks.betamesh": "Beta mesh",
+      "item.advancedredstoneblocks.cbetafly": "Redstone flying car Spawn Egg",
+      "effect.magicer": "ultimately unbeatable",
+      "block.advancedredstoneblocks.toreders": "To red convertable",
+      "item.advancedredstoneblocks.wtea": "Slytube",
+      "block.advancedredstoneblocks.traps": "Redstone trap door",
+      "item.advancedredstoneblocks.cf_spawn_egg": "Redcar Spawn Egg",
+      "block.advancedredstoneblocks.stare": "Redstone stairs",
+      "entity.advancedredstoneblocks.cfly": "Redcar",
+      "item.advancedredstoneblocks.cfly_spawn_egg": "Redstone flying car Spawn Egg",
+      "block.advancedredstoneblocks.deopen": "Deopen",
+      "item.minecraft.splash_potion.effect.magicer": "Splash Ultimate elixir",
+      "block.advancedredstoneblocks.tartel": "Teleport target",
+      "block.advancedredstoneblocks.oldes": "Beta advanced redstone block",
+      "item.advancedredstoneblocks.betess": "Beta redstone essence",
+      "block.advancedredstoneblocks.torg": "To block mod",
+      "item.advancedredstoneblocks.redcars": "Redstone car",
+      "item.advancedredstoneblocks.cbetafly_spawn_egg": "Redstone flying car Spawn Egg",
+      "item.advancedredstoneblocks.sicred": "Redstone stick",
+      "itemGroup.tabbsew": "Advanced blocks",
+      "block.advancedredstoneblocks.rceos": "Rceosup",
+      "item.advancedredstoneblocks.wtea.desc": "Supposed to be note blocks",
+      "advancements.flying.title": "We don\u0027t need roads",
+      "item.advancedredstoneblocks.correds": "Dubstep corrupted",
+      "block.advancedredstoneblocks.slabold": "Slabold",
+      "item.advancedredstoneblocks.tolock_gem": "Tolock",
+      "item.advancedredstoneblocks.cf": "Cf Spawn Egg",
+      "item.advancedredstoneblocks.rcda": "Redstone rubber",
+      "block.advancedredstoneblocks.tolock_ore": "Tolock Ore",
+      "item.advancedredstoneblocks.wooder": "Wood door",
+      "block.advancedredstoneblocks.reop": "Reop",
+      "item.advancedredstoneblocks.redflycars": "Beta redstone car",
+      "item.advancedredstoneblocks.redstard": "Redstone star",
+      "item.advancedredstoneblocks.woodslide": "Sliding wood door",
+      "block.advancedredstoneblocks.rebotomop": "Rebotomop",
+      "item.advancedredstoneblocks.edsass": "redstone essence",
+      "block.advancedredstoneblocks.betaps": "Beta redstone trapdoor",
+      "block.advancedredstoneblocks.debottomopen": "Debottomopen",
+      "key.mcreator.watermode": "Car Water mode",
+      "block.advancedredstoneblocks.decos": "Advanced redstone decoration block",
+      "item.minecraft.potion.effect.magicer": "Ultimate elixir",
+      "entity.advancedredstoneblocks.cf": "Cf",
+      "block.advancedredstoneblocks.ghd": "Ghd",
+      "item.advancedredstoneblocks.tpcar": "Redcar Spawn Egg"
+    },
+    "en_us": {
+      "block.advancedredstoneblocks.redoor": "Redoor",
+      "block.advancedredstoneblocks.declosed": "Declosed",
+      "item.advancedredstoneblocks.bettertool": "Infinity ultimate multitool",
+      "item.advancedredstoneblocks.cfold": "Redoldcar Spawn Egg",
+      "block.advancedredstoneblocks.rebotco": "Rebotco",
+      "item.advancedredstoneblocks.flred": "Redstone boat car",
+      "advancements.carss.descr": "Craft a redstone car",
+      "block.advancedredstoneblocks.slidebottomclo": "Slidebottomclo",
+      "block.advancedredstoneblocks.slidebottomope": "Slidebottomope",
+      "advancements.carsa.descr": "Convert an advanced redstone block to the advanced blocks mod",
+      "block.advancedredstoneblocks.rubbb": "Redstone rubber stone",
+      "item.advancedredstoneblocks.sma.desc": "Smile always",
+      "block.advancedredstoneblocks.pande": "Pande",
+      "block.advancedredstoneblocks.slidetopclosed": "Slidetopclosed",
+      "entity.advancedredstoneblocks.cfold": "Redoldcar",
+      "advancements.carsa.title": "Convert to block mod",
+      "item.minecraft.tipped_arrow.effect.magicer": "Arrow of Ultimate elixir",
+      "item.advancedredstoneblocks.ultimateess": "Ultimate essence",
+      "item.minecraft.lingering_potion.effect.magicer": "Lingering Ultimate elixir",
+      "item.advancedredstoneblocks.cfly": "Redstone flying car Spawn Egg",
+      "block.advancedredstoneblocks.wel": "Wel",
+      "block.advancedredstoneblocks.slabszx": "Slabszx",
+      "advancements.flying.descr": "Upgrade your redstone car to a flying car",
+      "item.advancedredstoneblocks.floatswa": "Redstcar Spawn Egg",
+      "advancements.carss.title": "On the road",
+      "item.advancedredstoneblocks.floatswa_spawn_egg": "Redstcar Spawn Egg",
+      "entity.advancedredstoneblocks.tpcar": "Redcartp",
+      "entity.advancedredstoneblocks.cbetafly": "Redstone flying car",
+      "item.advancedredstoneblocks.redmesh": "Red mesh",
+      "item.advancedredstoneblocks.redoldcars": "Beta redstone car",
+      "item.advancedredstoneblocks.correds.desc": "CoRuPtEd",
+      "block.advancedredstoneblocks.desd": "Desd",
+      "item.advancedredstoneblocks.sma": "The smiler",
+      "block.advancedredstoneblocks.betasteare": "Beta redstone stairs",
+      "item.advancedredstoneblocks.redtpcars": "Redstone teleportation car",
+      "block.advancedredstoneblocks.debottomclosed": "Debottomclosed",
+      "item.advancedredstoneblocks.cfold_spawn_egg": "Redoldcar Spawn Egg",
+      "item.advancedredstoneblocks.redooras": "Redstone door",
+      "block.advancedredstoneblocks.glass": "Glass",
+      "block.advancedredstoneblocks.artel": "Location block 2",
+      "item.advancedredstoneblocks.redoldflycars": "Redstone beta flying car",
+      "item.advancedredstoneblocks.tpcar_spawn_egg": "Redcartp Spawn Egg",
+      "block.advancedredstoneblocks.slidetopopen": "Slidetopopen",
+      "entity.advancedredstoneblocks.floatswa": "Redstcar",
+      "item.advancedredstoneblocks.betamesh": "Beta mesh",
+      "item.advancedredstoneblocks.cbetafly": "Redstone flying car Spawn Egg",
+      "effect.magicer": "ultimately unbeatable",
+      "block.advancedredstoneblocks.toreders": "To red convertable",
+      "item.advancedredstoneblocks.wtea": "Slytube",
+      "block.advancedredstoneblocks.traps": "Redstone trap door",
+      "item.advancedredstoneblocks.cf_spawn_egg": "Redcar Spawn Egg",
+      "block.advancedredstoneblocks.stare": "Redstone stairs",
+      "entity.advancedredstoneblocks.cfly": "Redstone flying car",
+      "item.advancedredstoneblocks.cfly_spawn_egg": "Redstone flying car Spawn Egg",
+      "block.advancedredstoneblocks.deopen": "Deopen",
+      "item.minecraft.splash_potion.effect.magicer": "Splash Ultimate elixir",
+      "block.advancedredstoneblocks.tartel": "Location block 1",
+      "block.advancedredstoneblocks.oldes": "Beta advanced redstone block",
+      "item.advancedredstoneblocks.betess": "Beta redstone essence",
+      "block.advancedredstoneblocks.torg": "To block mod",
+      "item.advancedredstoneblocks.redcars": "Redstone car",
+      "item.advancedredstoneblocks.cbetafly_spawn_egg": "Redstone flying car Spawn Egg",
+      "item.advancedredstoneblocks.sicred": "Redstone stick",
+      "itemGroup.tabbsew": "Advanced blocks",
+      "block.advancedredstoneblocks.rceos": "Rceosup",
+      "item.advancedredstoneblocks.wtea.desc": "Supposed to be note blocks",
+      "advancements.flying.title": "We don\u0027t need roads",
+      "item.advancedredstoneblocks.correds": "Dubstep corrupted",
+      "block.advancedredstoneblocks.slabold": "Slabold",
+      "item.advancedredstoneblocks.tolock_gem": "Tolock",
+      "item.advancedredstoneblocks.cf": "Redcar Spawn Egg",
+      "item.advancedredstoneblocks.rcda": "Redstone rubber",
+      "block.advancedredstoneblocks.tolock_ore": "To lock Ore",
+      "item.advancedredstoneblocks.wooder": "Wood door",
+      "block.advancedredstoneblocks.reop": "Reop",
+      "item.advancedredstoneblocks.redflycars": "Redstone flying car",
+      "item.advancedredstoneblocks.redstard": "Redstone star",
+      "item.advancedredstoneblocks.woodslide": "Sliding wood door",
+      "block.advancedredstoneblocks.rebotomop": "Rebotomop",
+      "item.advancedredstoneblocks.edsass": "redstone essence",
+      "block.advancedredstoneblocks.betaps": "Beta redstone trapdoor",
+      "block.advancedredstoneblocks.debottomopen": "Debottomopen",
+      "key.mcreator.watermode": "Car modes",
+      "block.advancedredstoneblocks.decos": "Advanced redstone decoration block",
+      "item.minecraft.potion.effect.magicer": "Ultimate elixir",
+      "entity.advancedredstoneblocks.cf": "Redcar",
+      "block.advancedredstoneblocks.ghd": "Ghd",
+      "item.advancedredstoneblocks.tpcar": "Redcartp Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "advancedredstoneblocks",
+    "modName": "advanced redstone blocks",
+    "version": "3.0.0",
+    "description": "A amazing addon mod for Sly Advanced redstone     NEW:  added cars, doors and 3D models to the mod",
+    "author": "Slyfalco",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "elixird",
+    "requiredMods": [
+      "sly_adnanced_redstone"
+    ],
+    "dependencies": [],
+    "dependants": [
+      "sly_adnanced_redstone"
+    ],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "credits": "Created by Slyfalco",
+    "modElementsPackage": "net.mcreator.advancedredstoneblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

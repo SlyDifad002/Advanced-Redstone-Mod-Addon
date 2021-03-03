@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/reop"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/reop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/reop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/reop",
+      "y": 270
+    }
+  }
+}

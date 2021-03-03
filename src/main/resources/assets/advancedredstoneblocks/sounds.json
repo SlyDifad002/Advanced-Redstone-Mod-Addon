@@ -1,0 +1,56 @@
+{
+  "slyacs": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:slytube",
+        "stream": false
+      }
+    ]
+  },
+  "smiles": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:mix_1m06s_audio-joiner.com",
+        "stream": false
+      }
+    ]
+  },
+  "corrupeds": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:mix_1m31s_audio-joiner.com",
+        "stream": false
+      }
+    ]
+  },
+  "beast": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:udio",
+        "stream": false
+      }
+    ]
+  },
+  "slideclosing": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:futuristic_air_compression_door_close_02",
+        "stream": false
+      }
+    ]
+  },
+  "slideopening": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "advancedredstoneblocks:006141520_prev",
+        "stream": false
+      }
+    ]
+  }
+}

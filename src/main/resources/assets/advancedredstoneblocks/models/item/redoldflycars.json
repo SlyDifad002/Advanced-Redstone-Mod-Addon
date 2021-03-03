@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/smartitemfly",
+  "textures": {
+    "seat": "advancedredstoneblocks:blocks/11",
+    "particle": "advancedredstoneblocks:items/red2"
+  }
+}

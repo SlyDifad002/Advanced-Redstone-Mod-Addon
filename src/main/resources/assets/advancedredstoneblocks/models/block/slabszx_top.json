@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "advancedredstoneblocks:blocks/1",
+    "top": "advancedredstoneblocks:blocks/1",
+    "side": "advancedredstoneblocks:blocks/1"
+  }
+}

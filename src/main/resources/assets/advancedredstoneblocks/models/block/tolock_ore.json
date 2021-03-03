@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancedredstoneblocks:blocks/tolock_ore",
+    "particle": "advancedredstoneblocks:blocks/tolock_ore"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "advancedredstoneblocks:sicred"
+    },
+    "3": {
+      "item": "minecraft:sticky_piston"
+    },
+    "4": {
+      "item": "advancedredstoneblocks:wooder"
+    },
+    "5": {
+      "item": "minecraft:sticky_piston"
+    },
+    "7": {
+      "item": "advancedredstoneblocks:sicred"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:woodslide",
+    "count": 1
+  }
+}

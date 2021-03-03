@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Convert to block mod",
+    "achievementDescription": "Convert an advanced redstone block to the advanced blocks mod",
+    "achievementIcon": {
+      "value": "CUSTOM:Decos"
+    },
+    "background": "smart.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "Rewasd"
+    ],
+    "rewardRecipes": [
+      "Scsr",
+      "Betascsr"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 20,
+    "achievementType": "goal",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"38\" y=\"49\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

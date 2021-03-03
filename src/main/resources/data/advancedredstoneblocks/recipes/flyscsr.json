@@ -1,0 +1,36 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:ultimateess"
+    },
+    "1": {
+      "item": "minecraft:elytra"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:ultimateess"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "4": {
+      "item": "advancedredstoneblocks:redcars"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:decos"
+    },
+    "7": {
+      "item": "advancedredstoneblocks:ultimateess"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:redflycars",
+    "count": 1
+  }
+}

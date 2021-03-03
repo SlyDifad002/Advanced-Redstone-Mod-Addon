@@ -1,0 +1,8 @@
+{
+  "parent": "advancedredstoneblocks:custom/openslidedoor",
+  "textures": {
+    "all": "advancedredstoneblocks:blocks/mewrw",
+    "particle": "advancedredstoneblocks:blocks/mewrw",
+    "texture": "advancedredstoneblocks:blocks/mewrw"
+  }
+}

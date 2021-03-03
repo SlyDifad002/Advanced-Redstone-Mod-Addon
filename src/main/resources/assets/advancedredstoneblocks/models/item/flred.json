@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/smartfloat",
+  "textures": {
+    "2": "advancedredstoneblocks:blocks/1",
+    "particle": "advancedredstoneblocks:items/toer"
+  }
+}

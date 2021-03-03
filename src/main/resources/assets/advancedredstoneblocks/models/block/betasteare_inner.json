@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "advancedredstoneblocks:blocks/11",
+    "top": "advancedredstoneblocks:blocks/11",
+    "side": "advancedredstoneblocks:blocks/11"
+  }
+}

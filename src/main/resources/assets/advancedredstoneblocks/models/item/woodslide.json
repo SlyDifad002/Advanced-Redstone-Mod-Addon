@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/closedslidedoor",
+  "textures": {
+    "texture": "advancedredstoneblocks:blocks/mewrw",
+    "particle": "advancedredstoneblocks:items/slidewood"
+  }
+}

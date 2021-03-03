@@ -1,0 +1,42 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "1": {
+      "item": "advancedredstoneblocks:rcda"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:betamesh"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:rcda"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:rcda"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:betamesh"
+    },
+    "7": {
+      "item": "advancedredstoneblocks:rcda"
+    },
+    "8": {
+      "item": "advancedredstoneblocks:redmesh"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:wel",
+    "count": 1
+  }
+}

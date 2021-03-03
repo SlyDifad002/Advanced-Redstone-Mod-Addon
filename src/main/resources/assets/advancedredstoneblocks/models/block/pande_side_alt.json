@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "advancedredstoneblocks:blocks/7",
+    "pane": "advancedredstoneblocks:blocks/5"
+  }
+}

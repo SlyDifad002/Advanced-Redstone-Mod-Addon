@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/smarterteleport",
+  "textures": {
+    "0": "advancedredstoneblocks:blocks/1_inproved",
+    "particle": "advancedredstoneblocks:items/1"
+  }
+}

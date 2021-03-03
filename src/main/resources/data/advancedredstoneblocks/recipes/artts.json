@@ -1,0 +1,42 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "minecraft:ender_pearl"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "advancedredstoneblocks:redmesh"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:artel",
+    "count": 1
+  }
+}

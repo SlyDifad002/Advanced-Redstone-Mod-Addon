@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "chrome": "bodybkgd",
+        "parts": "parts1",
+        "body": "bodybkgd",
+        "lights": "parts1",
+        "interior": "interior",
+        "tires": "tires_bump"
+      },
+      "name": "default"
+    }
+  }
+}

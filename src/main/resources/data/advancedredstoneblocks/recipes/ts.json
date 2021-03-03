@@ -1,0 +1,39 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "1": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "7": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "8": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:torg",
+    "count": 1
+  }
+}

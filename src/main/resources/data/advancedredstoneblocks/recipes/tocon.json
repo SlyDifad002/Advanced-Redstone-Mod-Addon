@@ -1,0 +1,21 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "   ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:tolock_gem"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:toreders",
+    "count": 1
+  }
+}

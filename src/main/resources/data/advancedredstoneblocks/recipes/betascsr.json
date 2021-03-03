@@ -1,0 +1,33 @@
+{
+  "group": "cars",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "advancedredstoneblocks:oldes"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:oldes"
+    },
+    "4": {
+      "item": "minecraft:diamond_block"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:oldes"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:wel"
+    },
+    "8": {
+      "item": "advancedredstoneblocks:wel"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:redoldcars",
+    "count": 1
+  }
+}

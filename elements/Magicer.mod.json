@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "potion",
+  "definition": {
+    "name": "Ultimate elixir",
+    "effectName": "ultimately unbeatable",
+    "icon": "elixird.png",
+    "color": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "MagicerPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "MagicerPotionExpires"
+    }
+  }
+}

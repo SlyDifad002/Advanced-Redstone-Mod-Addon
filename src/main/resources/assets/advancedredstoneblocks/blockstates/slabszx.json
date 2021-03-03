@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "advancedredstoneblocks:block/slabszx"
+    },
+    "type=top": {
+      "model": "advancedredstoneblocks:block/slabszx_top"
+    },
+    "type=double": {
+      "model": "advancedredstoneblocks:block/slabszx_full"
+    }
+  }
+}

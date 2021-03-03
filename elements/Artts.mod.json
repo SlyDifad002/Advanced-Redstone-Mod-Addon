@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Redmesh"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Redmesh"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:Redmesh"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Redmesh"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Artel"
+    },
+    "name": "artts",
+    "namespace": "mod"
+  }
+}

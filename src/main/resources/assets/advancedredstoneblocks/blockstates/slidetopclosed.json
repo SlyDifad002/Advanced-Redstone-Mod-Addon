@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/slidetopclosed"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/slidetopclosed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/slidetopclosed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/slidetopclosed",
+      "y": 270
+    }
+  }
+}

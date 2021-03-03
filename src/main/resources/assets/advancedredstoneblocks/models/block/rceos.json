@@ -1,0 +1,8 @@
+{
+  "parent": "advancedredstoneblocks:custom/my_door_better_closedtop",
+  "textures": {
+    "all": "advancedredstoneblocks:blocks/reoor",
+    "particle": "advancedredstoneblocks:blocks/reoor",
+    "texture": "advancedredstoneblocks:blocks/reoor"
+  }
+}

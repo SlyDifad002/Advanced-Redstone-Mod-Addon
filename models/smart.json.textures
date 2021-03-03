@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "seat": "1"
+      },
+      "name": "default"
+    }
+  }
+}

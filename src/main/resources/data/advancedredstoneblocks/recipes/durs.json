@@ -1,0 +1,9 @@
+{
+  "group": "cars",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "advancedredstoneblocks:rubbb"
+  },
+  "result": "advancedredstoneblocks:rcda"
+}

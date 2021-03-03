@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/debottomopen"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/debottomopen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/debottomopen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/debottomopen",
+      "y": 270
+    }
+  }
+}

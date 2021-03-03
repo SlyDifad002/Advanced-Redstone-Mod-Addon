@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "door_jungle_upper"
+      },
+      "name": "default"
+    },
+    "redstone": {
+      "map": {
+        "texture": "reoor"
+      },
+      "name": "redstone"
+    }
+  }
+}

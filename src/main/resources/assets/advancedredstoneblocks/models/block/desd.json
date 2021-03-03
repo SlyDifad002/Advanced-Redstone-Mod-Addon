@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancedredstoneblocks:blocks/7",
+    "particle": "advancedredstoneblocks:blocks/7"
+  }
+}

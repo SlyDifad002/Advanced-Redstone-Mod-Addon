@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advancedredstoneblocks:blocks/5",
+    "up": "advancedredstoneblocks:blocks/5",
+    "north": "advancedredstoneblocks:blocks/16",
+    "east": "advancedredstoneblocks:blocks/5",
+    "south": "advancedredstoneblocks:blocks/5",
+    "west": "advancedredstoneblocks:blocks/5",
+    "particle": "advancedredstoneblocks:blocks/5"
+  }
+}

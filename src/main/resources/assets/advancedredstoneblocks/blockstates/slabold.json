@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "advancedredstoneblocks:block/slabold"
+    },
+    "type=top": {
+      "model": "advancedredstoneblocks:block/slabold_top"
+    },
+    "type=double": {
+      "model": "advancedredstoneblocks:block/slabold_full"
+    }
+  }
+}

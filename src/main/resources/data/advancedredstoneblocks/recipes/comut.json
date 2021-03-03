@@ -1,0 +1,19 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:edsass"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:betess"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:ultimateess",
+    "count": 1
+  }
+}

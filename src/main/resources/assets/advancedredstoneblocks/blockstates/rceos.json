@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/rceos"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/rceos",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/rceos",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/rceos",
+      "y": 270
+    }
+  }
+}

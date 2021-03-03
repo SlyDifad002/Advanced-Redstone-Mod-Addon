@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/smartitem",
+  "textures": {
+    "seat": "advancedredstoneblocks:blocks/1",
+    "particle": "advancedredstoneblocks:items/toer"
+  }
+}

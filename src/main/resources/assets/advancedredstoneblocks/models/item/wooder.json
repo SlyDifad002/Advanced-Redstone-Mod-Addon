@@ -1,0 +1,7 @@
+{
+  "parent": "advancedredstoneblocks:custom/my_door_better_closedtop",
+  "textures": {
+    "texture": "advancedredstoneblocks:blocks/door_jungle_upper",
+    "particle": "advancedredstoneblocks:items/door_jungle_upper"
+  }
+}

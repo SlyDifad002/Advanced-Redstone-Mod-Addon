@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/rebotco"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/rebotco",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/rebotco",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/rebotco",
+      "y": 270
+    }
+  }
+}

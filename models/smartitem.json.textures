@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "seat": "1"
+      },
+      "name": "default"
+    },
+    "beta": {
+      "map": {
+        "seat": "11"
+      },
+      "name": "beta"
+    }
+  }
+}

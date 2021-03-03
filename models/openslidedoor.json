@@ -1,0 +1,42 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "texture": "blocks/door_jungle_upper",
+        "particle": "blocks/door_jungle_upper"
+    },
+    "elements": [
+        {
+            "from": [0,15,0],
+            "to": [16,16,3],
+            "faces": {
+                "up": {
+                    "uv": [15,16,14,0],
+                    "texture": "#texture",
+                    "rotation": 180
+                },
+                "down": {
+                    "uv": [4,16,3,1],
+                    "texture": "#texture",
+                    "rotation": 180
+                },
+                "west": {
+                    "uv": [16,0,1,1],
+                    "texture": "#texture"
+                },
+                "east": {
+                    "uv": [0,0,16,1],
+                    "texture": "#texture"
+                },
+                "north": {
+                    "uv": [3,0,4,16],
+                    "texture": "#texture"
+                },
+                "south": {
+                    "uv": [3,0,4,16],
+                    "texture": "#texture"
+                }
+            }
+        }
+    ]
+}

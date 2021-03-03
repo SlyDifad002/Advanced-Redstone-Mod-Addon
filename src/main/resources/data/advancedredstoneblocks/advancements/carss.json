@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "advancedredstoneblocks:redcars"
+    },
+    "title": {
+      "translate": "advancements.carss.title"
+    },
+    "description": {
+      "translate": "advancements.carss.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "carss": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "advancedredstoneblocks:burduber",
+      "advancedredstoneblocks:betascsr"
+    ]
+  },
+  "parent": "advancedredstoneblocks:carsa"
+}

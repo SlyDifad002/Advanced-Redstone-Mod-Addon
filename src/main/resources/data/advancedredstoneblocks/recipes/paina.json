@@ -1,0 +1,42 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "1": {
+      "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "3": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "4": {
+      "item": "minecraft:glass_pane"
+    },
+    "5": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "6": {
+      "item": "advancedredstoneblocks:redmesh"
+    },
+    "7": {
+      "item": "minecraft:glass_pane"
+    },
+    "8": {
+      "item": "advancedredstoneblocks:redmesh"
+    }
+  },
+  "result": {
+    "item": "advancedredstoneblocks:glass",
+    "count": 1
+  }
+}
