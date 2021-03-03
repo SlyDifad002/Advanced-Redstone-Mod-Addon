@@ -6,7 +6,7 @@
     "xpReward": 10.0,
     "cookingTime": 100,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "addon",
     "recipeShapeless": false,
     "smokingInputStack": {
       "value": "CUSTOM:Decos"

@@ -1,5 +1,5 @@
 {
-  "group": "advancedredstoneblocks",
+  "group": "addon",
   "type": "minecraft:smelting",
   "experience": 0.7,
   "cookingtime": 200,

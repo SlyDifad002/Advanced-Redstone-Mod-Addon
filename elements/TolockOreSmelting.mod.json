@@ -6,40 +6,8 @@
     "xpReward": 0.7,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "addon",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
       "value": "CUSTOM:TolockOre"
     },

@@ -39,7 +39,7 @@ public class WatermodeKeyBinding extends AdvancedredstoneblocksModElements.ModEl
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		keys = new KeyBinding("key.mcreator.watermode", GLFW.GLFW_KEY_G, "key.categories.movement");
+		keys = new KeyBinding("key.mcreator.watermode", GLFW.GLFW_KEY_G, "key.categories.cars");
 		ClientRegistry.registerKeyBinding(keys);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

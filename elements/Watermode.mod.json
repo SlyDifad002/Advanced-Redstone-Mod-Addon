@@ -4,7 +4,7 @@
   "definition": {
     "triggerKey": "G",
     "keyBindingName": "Car modes",
-    "keyBindingCategoryKey": "movement",
+    "keyBindingCategoryKey": "cars",
     "onKeyPressed": {
       "name": "FloatswaOnEntityTickUpdateOnKeyPressed"
     }
