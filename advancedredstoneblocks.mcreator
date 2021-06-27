@@ -2256,7 +2256,7 @@
   "workspaceSettings": {
     "modid": "advancedredstoneblocks",
     "modName": "advanced redstone blocks",
-    "version": "3.0.0",
+    "version": "9.5",
     "description": "A amazing addon mod for Sly Advanced redstone     NEW:  added cars, doors and 3D models to the mod",
     "author": "Slyfalco",
     "websiteURL": "https://mcreator.net",
@@ -2271,7 +2271,7 @@
       "sly_adnanced_redstone"
     ],
     "mcreatorDependencies": [],
-    "currentGenerator": "1.14.4",
+    "currentGenerator": "forge-1.14.4",
     "credits": "Created by Slyfalco",
     "modElementsPackage": "net.mcreator.advancedredstoneblocks",
     "lockBaseModFiles": false
