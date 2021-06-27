@@ -3,7 +3,7 @@ loaderVersion="[28,)"
 
 [[mods]]
 modId="advancedredstoneblocks"
-version="9.5"
+version="2.2.0"
 displayName="advanced redstone blocks"
 credits="Created by Slyfalco"
 displayURL="https://mcreator.net"
