@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Betamesh"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.FLOWING_LAVA"
+      "value": "CUSTOM:Oldes"
     },
-    "name": "hgf",
-    "namespace": "minecraft"
+    "name": "led",
+    "namespace": "mod"
   }
 }

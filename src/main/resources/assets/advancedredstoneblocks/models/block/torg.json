@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "advancedredstoneblocks:blocks/7",
-    "up": "advancedredstoneblocks:blocks/7",
+    "down": "advancedredstoneblocks:blocks/1",
+    "up": "advancedredstoneblocks:blocks/1",
     "north": "advancedredstoneblocks:blocks/cr2",
-    "east": "advancedredstoneblocks:blocks/7",
+    "east": "advancedredstoneblocks:blocks/1",
     "south": "advancedredstoneblocks:blocks/cr2",
-    "west": "advancedredstoneblocks:blocks/7",
-    "particle": "advancedredstoneblocks:blocks/7"
+    "west": "advancedredstoneblocks:blocks/1",
+    "particle": "advancedredstoneblocks:blocks/1"
   }
 }

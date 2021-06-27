@@ -1,0 +1,13 @@
+{
+  "group": "advancedredstoneblocks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancedredstoneblocks:decos"
+    }
+  ],
+  "result": {
+    "item": "advancedredstoneblocks:redmesh",
+    "count": 9
+  }
+}

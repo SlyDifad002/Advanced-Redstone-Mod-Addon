@@ -6,11 +6,11 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:lava_bucket"
+      "item": "advancedredstoneblocks:oldes"
     }
   },
   "result": {
-    "item": "minecraft:lava",
-    "count": 1
+    "item": "advancedredstoneblocks:betamesh",
+    "count": 9
   }
 }

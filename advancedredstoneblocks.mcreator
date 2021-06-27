@@ -1030,15 +1030,6 @@
       "ids": {}
     },
     {
-      "name": "Hgf",
-      "type": "recipe",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hgf"
-    },
-    {
       "name": "Cfold",
       "type": "mob",
       "sortid": 78,
@@ -1930,6 +1921,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dew"
+    },
+    {
+      "name": "Old",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "old"
+    },
+    {
+      "name": "Newold",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newold"
+    },
+    {
+      "name": "Oldnew",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oldnew"
+    },
+    {
+      "name": "Led",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "led"
     }
   ],
   "variable_elements": [
@@ -2195,7 +2222,7 @@
       "block.advancedredstoneblocks.tartel": "Location block 1",
       "block.advancedredstoneblocks.oldes": "Beta advanced redstone block",
       "item.advancedredstoneblocks.betess": "Beta redstone essence",
-      "block.advancedredstoneblocks.torg": "To block mod",
+      "block.advancedredstoneblocks.torg": "To the addon mod",
       "item.advancedredstoneblocks.redcars": "Redstone car",
       "item.advancedredstoneblocks.cbetafly_spawn_egg": "Redstone flying car Spawn Egg",
       "item.advancedredstoneblocks.sicred": "Redstone stick",
@@ -2205,10 +2232,10 @@
       "advancements.flying.title": "We don\u0027t need roads",
       "item.advancedredstoneblocks.correds": "Dubstep corrupted",
       "block.advancedredstoneblocks.slabold": "Slabold",
-      "item.advancedredstoneblocks.tolock_gem": "Tolock",
+      "item.advancedredstoneblocks.tolock_gem": "Red metal",
       "item.advancedredstoneblocks.cf": "Redcar Spawn Egg",
       "item.advancedredstoneblocks.rcda": "Redstone rubber",
-      "block.advancedredstoneblocks.tolock_ore": "To lock Ore",
+      "block.advancedredstoneblocks.tolock_ore": "Red Metal Ore",
       "item.advancedredstoneblocks.wooder": "Wood door",
       "block.advancedredstoneblocks.reop": "Reop",
       "item.advancedredstoneblocks.redflycars": "Redstone flying car",

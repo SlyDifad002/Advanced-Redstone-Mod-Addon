@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "advancedredstoneblocks:block/torg"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/torg",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/torg",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/torg",
+      "y": 270
     }
   }
 }

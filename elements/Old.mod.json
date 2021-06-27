@@ -5,24 +5,21 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "addon",
-    "recipeShapeless": false,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": ""
       },
       {
-        "value": "Items.ELYTRA"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Decos"
-      },
-      {
-        "value": "CUSTOM:Redcars"
+        "value": ""
       },
       {
         "value": "CUSTOM:Decos"
@@ -31,16 +28,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Redflycars"
+      "value": "CUSTOM:Redmesh"
     },
-    "name": "flyscsr",
+    "name": "old",
     "namespace": "mod"
   }
 }

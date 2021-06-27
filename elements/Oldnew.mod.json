@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "addon",
+    "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "Items.ELYTRA"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "CUSTOM:Decos"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "CUSTOM:Redcars"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "CUSTOM:Decos"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": "CUSTOM:Ultimateess"
+        "value": "CUSTOM:Redmesh"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Redmesh"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Redflycars"
+      "value": "CUSTOM:Decos"
     },
-    "name": "flyscsr",
+    "name": "oldnew",
     "namespace": "mod"
   }
 }
