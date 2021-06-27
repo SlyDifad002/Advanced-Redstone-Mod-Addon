@@ -1,0 +1,59 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Conversion1"
+          },
+          "name": "Slot #0",
+          "x": 145,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "Conversion2"
+          },
+          "name": "Slot #1",
+          "x": 262,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Time Converter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Time Converter",
+          "x": 175,
+          "y": 49
+        }
+      }
+    ]
+  }
+}

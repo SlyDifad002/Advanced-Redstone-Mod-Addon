@@ -1957,6 +1957,67 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "led"
+    },
+    {
+      "name": "Conversion1",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "conversion_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conversion2",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "conversion_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Convert",
+      "type": "gui",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "convert"
+    },
+    {
+      "name": "Timeconverter",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timeconverter"
+    },
+    {
+      "name": "Emit",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emit"
     }
   ],
   "variable_elements": [
@@ -2144,6 +2205,7 @@
       "block.advancedredstoneblocks.slabold": "Slabold",
       "item.advancedredstoneblocks.tolock_gem": "Tolock",
       "item.advancedredstoneblocks.cf": "Cf Spawn Egg",
+      "block.advancedredstoneblocks.timeconverter": "Time Converter",
       "item.advancedredstoneblocks.rcda": "Redstone rubber",
       "block.advancedredstoneblocks.tolock_ore": "Tolock Ore",
       "item.advancedredstoneblocks.wooder": "Wood door",
@@ -2234,6 +2296,7 @@
       "block.advancedredstoneblocks.slabold": "Slabold",
       "item.advancedredstoneblocks.tolock_gem": "Red metal",
       "item.advancedredstoneblocks.cf": "Redcar Spawn Egg",
+      "block.advancedredstoneblocks.timeconverter": "Time Converter",
       "item.advancedredstoneblocks.rcda": "Redstone rubber",
       "block.advancedredstoneblocks.tolock_ore": "Red Metal Ore",
       "item.advancedredstoneblocks.wooder": "Wood door",

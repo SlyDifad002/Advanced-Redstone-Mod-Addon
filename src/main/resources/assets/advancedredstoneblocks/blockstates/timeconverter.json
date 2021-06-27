@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedredstoneblocks:block/timeconverter"
+    },
+    "facing=east": {
+      "model": "advancedredstoneblocks:block/timeconverter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedredstoneblocks:block/timeconverter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedredstoneblocks:block/timeconverter",
+      "y": 270
+    }
+  }
+}
