@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -10,23 +10,6 @@
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 0,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "onSlotChanged": {
-            "name": "Conversion1"
-          },
-          "name": "Slot #0",
-          "x": 145,
-          "y": 74
-        }
-      },
       {
         "type": "outputslot",
         "data": {
@@ -52,6 +35,23 @@
           "name": "Time Converter",
           "x": 175,
           "y": 49
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Conversion1"
+          },
+          "name": "Slot #0",
+          "x": 148,
+          "y": 74
         }
       }
     ]

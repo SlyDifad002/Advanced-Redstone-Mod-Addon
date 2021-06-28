@@ -12,6 +12,7 @@ import net.mcreator.advancedredstoneblocks.item.BetameshItem;
 import net.mcreator.advancedredstoneblocks.block.OldesBlock;
 import net.mcreator.advancedredstoneblocks.block.DecosBlock;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -25,7 +26,7 @@ public class Conversion1Procedure extends AdvancedredstoneblocksModElements.ModE
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Conversion1!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure Conversion1!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

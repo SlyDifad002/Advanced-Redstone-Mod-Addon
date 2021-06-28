@@ -10,7 +10,7 @@
     },
     {
       "when": {
-        "north": "true"
+        "north": "low"
       },
       "apply": {
         "model": "advancedredstoneblocks:block/ghd",
@@ -19,7 +19,17 @@
     },
     {
       "when": {
-        "south": "true"
+        "east": "low"
+      },
+      "apply": {
+        "model": "advancedredstoneblocks:block/ghd",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
       },
       "apply": {
         "model": "advancedredstoneblocks:block/ghd",
@@ -29,7 +39,7 @@
     },
     {
       "when": {
-        "west": "true"
+        "west": "low"
       },
       "apply": {
         "model": "advancedredstoneblocks:block/ghd",
@@ -39,11 +49,40 @@
     },
     {
       "when": {
-        "east": "true"
+        "north": "tall"
       },
       "apply": {
-        "model": "advancedredstoneblocks:block/ghd",
+        "model": "advancedredstoneblocks:block/ghd_side_tall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "advancedredstoneblocks:block/ghd_side_tall",
         "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "advancedredstoneblocks:block/ghd_side_tall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "advancedredstoneblocks:block/ghd_side_tall",
+        "y": 270,
         "uvlock": true
       }
     }

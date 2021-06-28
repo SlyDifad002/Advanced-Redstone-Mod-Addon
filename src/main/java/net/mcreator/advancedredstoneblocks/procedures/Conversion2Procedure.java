@@ -7,6 +7,7 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -20,7 +21,7 @@ public class Conversion2Procedure extends AdvancedredstoneblocksModElements.ModE
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Conversion2!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure Conversion2!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

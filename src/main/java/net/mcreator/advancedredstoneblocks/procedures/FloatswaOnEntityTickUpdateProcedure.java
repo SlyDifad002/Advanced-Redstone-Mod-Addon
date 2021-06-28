@@ -12,6 +12,7 @@ import net.minecraft.entity.Entity;
 import net.mcreator.advancedredstoneblocks.entity.FloatswaEntity;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModVariables;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -26,27 +27,27 @@ public class FloatswaOnEntityTickUpdateProcedure extends AdvancedredstoneblocksM
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure FloatswaOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure FloatswaOnEntityTickUpdate!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure FloatswaOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency x for procedure FloatswaOnEntityTickUpdate!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure FloatswaOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency y for procedure FloatswaOnEntityTickUpdate!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure FloatswaOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency z for procedure FloatswaOnEntityTickUpdate!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure FloatswaOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure FloatswaOnEntityTickUpdate!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -76,9 +77,9 @@ public class FloatswaOnEntityTickUpdateProcedure extends AdvancedredstoneblocksM
 		if (event.phase == TickEvent.Phase.END) {
 			Entity entity = event.player;
 			World world = entity.world;
-			double i = entity.posX;
-			double j = entity.posY;
-			double k = entity.posZ;
+			double i = entity.getPosX();
+			double j = entity.getPosY();
+			double k = entity.getPosZ();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
 			dependencies.put("y", j);

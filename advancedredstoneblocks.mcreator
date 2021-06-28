@@ -2217,6 +2217,7 @@
       "item.advancedredstoneblocks.edsass": "redstone essence",
       "block.advancedredstoneblocks.betaps": "Beta redstone trapdoor",
       "block.advancedredstoneblocks.debottomopen": "Debottomopen",
+      "key.advancedredstoneblocks.watermode": "Car modes",
       "key.mcreator.watermode": "Car Water mode",
       "block.advancedredstoneblocks.decos": "Advanced redstone decoration block",
       "item.minecraft.potion.effect.magicer": "Ultimate elixir",
@@ -2308,6 +2309,7 @@
       "item.advancedredstoneblocks.edsass": "redstone essence",
       "block.advancedredstoneblocks.betaps": "Beta redstone trapdoor",
       "block.advancedredstoneblocks.debottomopen": "Debottomopen",
+      "key.advancedredstoneblocks.watermode": "Car modes",
       "key.mcreator.watermode": "Car modes",
       "block.advancedredstoneblocks.decos": "Advanced redstone decoration block",
       "item.minecraft.potion.effect.magicer": "Ultimate elixir",
@@ -2316,13 +2318,18 @@
       "item.advancedredstoneblocks.tpcar": "Redcartp Spawn Egg"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "advancedredstoneblocks",
     "modName": "advanced redstone blocks",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "A amazing addon mod for Sly Advanced redstone     NEW:  added cars, doors and 3D models to the mod",
     "author": "Slyfalco",
     "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "elixird",
@@ -2334,10 +2341,10 @@
       "sly_adnanced_redstone"
     ],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.14.4",
+    "currentGenerator": "forge-1.16.5",
     "credits": "Created by Slyfalco",
     "modElementsPackage": "net.mcreator.advancedredstoneblocks",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100118117
 }

@@ -8,6 +8,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -21,7 +22,7 @@ public class FlyseProcedure extends AdvancedredstoneblocksModElements.ModElement
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Flyse!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure Flyse!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

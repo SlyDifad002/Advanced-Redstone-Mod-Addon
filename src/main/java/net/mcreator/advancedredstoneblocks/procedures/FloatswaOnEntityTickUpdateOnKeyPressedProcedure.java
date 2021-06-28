@@ -11,6 +11,7 @@ import net.mcreator.advancedredstoneblocks.entity.FloatswaEntity;
 import net.mcreator.advancedredstoneblocks.entity.CflyEntity;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModVariables;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 import java.util.Collections;
@@ -24,12 +25,12 @@ public class FloatswaOnEntityTickUpdateOnKeyPressedProcedure extends Advancedred
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure FloatswaOnEntityTickUpdateOnKeyPressed!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure FloatswaOnEntityTickUpdateOnKeyPressed!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure FloatswaOnEntityTickUpdateOnKeyPressed!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure FloatswaOnEntityTickUpdateOnKeyPressed!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -78,7 +79,7 @@ public class FloatswaOnEntityTickUpdateOnKeyPressedProcedure extends Advancedred
 				AdvancedredstoneblocksModVariables.WorldVariables.get(world).tofromloc = (double) 1;
 				AdvancedredstoneblocksModVariables.WorldVariables.get(world).syncData(world);
 			} else {
-				if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 					((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You have not placed  Location block1"), (true));
 				}
 			}
@@ -102,7 +103,7 @@ public class FloatswaOnEntityTickUpdateOnKeyPressedProcedure extends Advancedred
 				AdvancedredstoneblocksModVariables.WorldVariables.get(world).tofromloc = (double) 0;
 				AdvancedredstoneblocksModVariables.WorldVariables.get(world).syncData(world);
 			} else {
-				if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 					((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You have not placed  Location block2"), (true));
 				}
 			}

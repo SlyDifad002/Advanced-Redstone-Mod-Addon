@@ -7,6 +7,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -19,14 +20,14 @@ public class MagicerPotionExpiresProcedure extends AdvancedredstoneblocksModElem
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure MagicerPotionExpires!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure MagicerPotionExpires!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Your no longer ultimate unfortunatly"), (false));
 		}
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Your no longer ultimate unfortunatly"), (true));
 		}
 		if (entity instanceof LivingEntity)

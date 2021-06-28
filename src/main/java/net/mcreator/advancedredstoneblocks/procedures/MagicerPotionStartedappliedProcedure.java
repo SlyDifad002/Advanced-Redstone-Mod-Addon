@@ -2,6 +2,7 @@ package net.mcreator.advancedredstoneblocks.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.Explosion;
@@ -12,8 +13,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.entity.projectile.FireworkRocketEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.item.FireworkRocketEntity;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.LivingEntity;
@@ -22,6 +23,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -34,27 +36,27 @@ public class MagicerPotionStartedappliedProcedure extends Advancedredstoneblocks
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure MagicerPotionStartedapplied!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure MagicerPotionStartedapplied!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure MagicerPotionStartedapplied!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency x for procedure MagicerPotionStartedapplied!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure MagicerPotionStartedapplied!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency y for procedure MagicerPotionStartedapplied!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure MagicerPotionStartedapplied!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency z for procedure MagicerPotionStartedapplied!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure MagicerPotionStartedapplied!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure MagicerPotionStartedapplied!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -66,23 +68,23 @@ public class MagicerPotionStartedappliedProcedure extends Advancedredstoneblocks
 			((PlayerEntity) entity).abilities.isFlying = (true);
 			((PlayerEntity) entity).sendPlayerAbilities();
 		}
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You are now UNBEATABLE!"), (true));
 		}
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You are now UNBEATABLE!"), (false));
 		}
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).setHealth((float) 10000);
-		if (world instanceof World && !world.getWorld().isRemote) {
-			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 0, Explosion.Mode.BREAK);
+		if (world instanceof World && !((World) world).isRemote) {
+			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 0, Explosion.Mode.BREAK);
 		}
-		if (!world.getWorld().isRemote) {
-			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+		if (world instanceof World && !world.isRemote()) {
+			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("advancedredstoneblocks:beast")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
-			world.getWorld().playSound(x, y, z,
+			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("advancedredstoneblocks:beast")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
@@ -90,43 +92,43 @@ public class MagicerPotionStartedappliedProcedure extends Advancedredstoneblocks
 			((PlayerEntity) entity).addExperienceLevel((int) 999);
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).getFoodStats().setFoodLevel((int) 100000);
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new FireworkRocketEntity(EntityType.FIREWORK_ROCKET, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}

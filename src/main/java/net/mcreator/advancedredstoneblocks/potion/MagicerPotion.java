@@ -12,7 +12,7 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.entity.ai.attributes.AbstractAttributeMap;
+import net.minecraft.entity.ai.attributes.AttributeModifierManager;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -91,9 +91,9 @@ public class MagicerPotion extends AdvancedredstoneblocksModElements.ModElement 
 		@Override
 		public void affectEntity(Entity source, Entity indirectSource, LivingEntity entity, int amplifier, double health) {
 			World world = entity.world;
-			double x = entity.posX;
-			double y = entity.posY;
-			double z = entity.posZ;
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
@@ -106,12 +106,12 @@ public class MagicerPotion extends AdvancedredstoneblocksModElements.ModElement 
 		}
 
 		@Override
-		public void removeAttributesModifiersFromEntity(LivingEntity entity, AbstractAttributeMap attributeMapIn, int amplifier) {
+		public void removeAttributesModifiersFromEntity(LivingEntity entity, AttributeModifierManager attributeMapIn, int amplifier) {
 			super.removeAttributesModifiersFromEntity(entity, attributeMapIn, amplifier);
 			World world = entity.world;
-			double x = entity.posX;
-			double y = entity.posY;
-			double z = entity.posZ;
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);

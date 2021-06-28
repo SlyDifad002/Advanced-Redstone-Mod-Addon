@@ -4,6 +4,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.entity.CbetaflyEntity;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -16,7 +17,7 @@ public class CbetaflyOnEntityTickUpdateProcedure extends AdvancedredstoneblocksM
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure CbetaflyOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure CbetaflyOnEntityTickUpdate!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

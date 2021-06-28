@@ -12,6 +12,7 @@ import net.minecraft.entity.Entity;
 import net.mcreator.advancedredstoneblocks.entity.CflyEntity;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModVariables;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -26,12 +27,12 @@ public class CflyOnEntityTickUpdateProcedure extends AdvancedredstoneblocksModEl
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure CflyOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure CflyOnEntityTickUpdate!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure CflyOnEntityTickUpdate!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure CflyOnEntityTickUpdate!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -45,8 +46,8 @@ public class CflyOnEntityTickUpdateProcedure extends AdvancedredstoneblocksModEl
 						Math.sin(Math.toRadians((0 - (entity.rotationPitch)))), Math.cos(Math.toRadians((entity.rotationYaw))));
 			}
 			if (((AdvancedredstoneblocksModVariables.MapVariables.get(world).num2) == 0)) {
-				if ((world.isAirBlock(new BlockPos((int) ((entity.getRidingEntity()).posX), (int) (((entity.getRidingEntity()).posY) - 1),
-						(int) ((entity.getRidingEntity()).posZ))))) {
+				if ((world.isAirBlock(new BlockPos((int) ((entity.getRidingEntity()).getPosX()), (int) (((entity.getRidingEntity()).getPosY()) - 1),
+						(int) ((entity.getRidingEntity()).getPosZ()))))) {
 					(entity.getRidingEntity()).setMotion(0, (-0.3), 0);
 				}
 			}
@@ -58,9 +59,9 @@ public class CflyOnEntityTickUpdateProcedure extends AdvancedredstoneblocksModEl
 		if (event.phase == TickEvent.Phase.END) {
 			Entity entity = event.player;
 			World world = entity.world;
-			double i = entity.posX;
-			double j = entity.posY;
-			double k = entity.posZ;
+			double i = entity.getPosX();
+			double j = entity.getPosY();
+			double k = entity.getPosZ();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
 			dependencies.put("y", j);

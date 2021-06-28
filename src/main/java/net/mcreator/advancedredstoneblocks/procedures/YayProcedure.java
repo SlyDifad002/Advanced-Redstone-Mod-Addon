@@ -17,6 +17,7 @@ import net.minecraft.advancements.Advancement;
 
 import net.mcreator.advancedredstoneblocks.block.DecosBlock;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -32,7 +33,7 @@ public class YayProcedure extends AdvancedredstoneblocksModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Yay!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure Yay!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -63,11 +64,11 @@ public class YayProcedure extends AdvancedredstoneblocksModElements.ModElement {
 
 	@SubscribeEvent
 	public void onPickup(EntityItemPickupEvent event) {
-		PlayerEntity entity = event.getEntityPlayer();
+		PlayerEntity entity = event.getPlayer();
 		ItemStack itemstack = event.getItem().getItem();
-		double i = entity.posX;
-		double j = entity.posY;
-		double k = entity.posZ;
+		double i = entity.getPosX();
+		double j = entity.getPosY();
+		double k = entity.getPosZ();
 		World world = entity.world;
 		Map<String, Object> dependencies = new HashMap<>();
 		dependencies.put("x", i);

@@ -1,9 +1,10 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[36,)"
+license="Not specified"
 
 [[mods]]
 modId="advancedredstoneblocks"
-version="2.2.0"
+version="2.2.1"
 displayName="advanced redstone blocks"
 credits="Created by Slyfalco"
 displayURL="https://mcreator.net"
@@ -16,7 +17,7 @@ A amazing addon mod for Sly Advanced redstone     NEW:  added cars, doors and 3D
 [[dependencies.advancedredstoneblocks]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
 
@@ -32,5 +33,6 @@ A amazing addon mod for Sly Advanced redstone     NEW:  added cars, doors and 3D
 [[dependencies.advancedredstoneblocks]]
     modId="sly_adnanced_redstone"
     mandatory=false
+    versionRange="[0,)"
     ordering="NONE"
     side="BOTH"

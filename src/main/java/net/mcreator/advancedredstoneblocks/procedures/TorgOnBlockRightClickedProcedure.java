@@ -9,6 +9,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.block.DecosBlock;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -21,7 +22,7 @@ public class TorgOnBlockRightClickedProcedure extends AdvancedredstoneblocksModE
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure TorgOnBlockRightClicked!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure TorgOnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -29,7 +30,8 @@ public class TorgOnBlockRightClickedProcedure extends AdvancedredstoneblocksModE
 				.getBoolean("mew"))) {
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
 			}
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(DecosBlock.block, (int) (1));

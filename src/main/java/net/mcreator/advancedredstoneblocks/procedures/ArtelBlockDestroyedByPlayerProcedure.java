@@ -7,6 +7,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModVariables;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -19,12 +20,12 @@ public class ArtelBlockDestroyedByPlayerProcedure extends Advancedredstoneblocks
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure ArtelBlockDestroyedByPlayer!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure ArtelBlockDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure ArtelBlockDestroyedByPlayer!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure ArtelBlockDestroyedByPlayer!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -35,7 +36,7 @@ public class ArtelBlockDestroyedByPlayerProcedure extends Advancedredstoneblocks
 		AdvancedredstoneblocksModVariables.WorldVariables.get(world).syncData(world);
 		AdvancedredstoneblocksModVariables.WorldVariables.get(world).tpto = (double) 0;
 		AdvancedredstoneblocksModVariables.WorldVariables.get(world).syncData(world);
-		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Location block 2 destroyed"), (true));
 		}
 	}

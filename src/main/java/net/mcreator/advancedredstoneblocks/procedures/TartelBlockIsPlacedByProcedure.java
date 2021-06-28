@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModVariables;
 import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksModElements;
+import net.mcreator.advancedredstoneblocks.AdvancedredstoneblocksMod;
 
 import java.util.Map;
 
@@ -21,27 +22,27 @@ public class TartelBlockIsPlacedByProcedure extends AdvancedredstoneblocksModEle
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure TartelBlockIsPlacedBy!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency entity for procedure TartelBlockIsPlacedBy!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure TartelBlockIsPlacedBy!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency x for procedure TartelBlockIsPlacedBy!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure TartelBlockIsPlacedBy!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency y for procedure TartelBlockIsPlacedBy!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure TartelBlockIsPlacedBy!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency z for procedure TartelBlockIsPlacedBy!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure TartelBlockIsPlacedBy!");
+				AdvancedredstoneblocksMod.LOGGER.warn("Failed to load dependency world for procedure TartelBlockIsPlacedBy!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -59,10 +60,10 @@ public class TartelBlockIsPlacedByProcedure extends AdvancedredstoneblocksModEle
 			AdvancedredstoneblocksModVariables.WorldVariables.get(world).tpdz = (double) z;
 			AdvancedredstoneblocksModVariables.WorldVariables.get(world).syncData(world);
 		} else {
-			if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You can not place this more than once at a time"), (true));
 			}
-			if (entity instanceof PlayerEntity && !entity.world.isRemote) {
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("setting new location and removing old location block"), (false));
 			}
 			world.setBlockState(new BlockPos((int) (AdvancedredstoneblocksModVariables.WorldVariables.get(world).tpd),

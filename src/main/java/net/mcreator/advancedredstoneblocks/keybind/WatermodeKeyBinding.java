@@ -39,7 +39,7 @@ public class WatermodeKeyBinding extends AdvancedredstoneblocksModElements.ModEl
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		keys = new KeyBinding("key.mcreator.watermode", GLFW.GLFW_KEY_G, "key.categories.cars");
+		keys = new KeyBinding("key.advancedredstoneblocks.watermode", GLFW.GLFW_KEY_G, "key.categories.cars");
 		ClientRegistry.registerKeyBinding(keys);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -83,9 +83,9 @@ public class WatermodeKeyBinding extends AdvancedredstoneblocksModElements.ModEl
 	}
 	private static void pressAction(PlayerEntity entity, int type, int pressedms) {
 		World world = entity.world;
-		double x = entity.posX;
-		double y = entity.posY;
-		double z = entity.posZ;
+		double x = entity.getPosX();
+		double y = entity.getPosY();
+		double z = entity.getPosZ();
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
